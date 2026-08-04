@@ -1,0 +1,130 @@
+@media (max-width: 1080px) {
+    #contato .contato-grid {
+        flex-direction: column;
+    }
+
+    #contato .contato-form {
+        width: 100%;
+    }
+
+    .sobre-grid {
+        flex-wrap: wrap;
+    }
+
+    .sobre-card {
+        flex-basis: 45%;
+    }
+}
+
+@media (max-width: 900px) {
+    #hero {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 40px 24px;
+        min-height: auto;
+    }
+
+    .hero-conteudo {
+        padding-left: 0;
+        max-width: 100%;
+    }
+
+    .hero-conteudo p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-acoes {
+        justify-content: center;
+    }
+
+    .hero-figura {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 827px) {
+    .menu h1 {
+        font-size: 1.1em;
+    }
+
+    .menu nav ul {
+        gap: 2px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .menu nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    header {
+        position: static;
+    }
+
+    .hero-conteudo h2 {
+        font-size: 32px;
+    }
+
+    .hero-conteudo p {
+        font-size: 15px;
+    }
+
+    .sobre-grid {
+        flex-direction: column;
+    }
+
+    .sobre-card {
+        flex-basis: auto;
+    }
+
+    #sobre h2,
+    #cardapio h2,
+    #faq h2,
+    #contato h2 {
+        font-size: 26px;
+    }
+
+    .cardapio-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prato-card {
+        max-width: 100%;
+    }
+
+    footer .container {
+        flex-direction: column;
+        gap: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-acoes {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .btn-hero,
+    .btn-hero-secundario {
+        text-align: center;
+    }
+
+    .toggle {
+        font-size: 14px;
+        padding: 14px 16px;
+    }
+
+    .contato-info {
+        padding: 24px;
+    }
+}
